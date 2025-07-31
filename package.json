@@ -1,0 +1,17 @@
+{
+  "name": "playwright-automation-mcp",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Playwright automation with MCP and Ollama integration",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --inspect server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "node-fetch": "^3.3.2",
+    "playwright": "^1.54.1"
+  }
+}
